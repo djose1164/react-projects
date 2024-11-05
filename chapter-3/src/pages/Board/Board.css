@@ -1,0 +1,10 @@
+.Board-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5%;
+
+    @media (max-width: 568px) {
+        flex-direction: column;
+    }
+}
